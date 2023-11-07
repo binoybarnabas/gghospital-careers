@@ -1,0 +1,115 @@
+body {
+  font-family: "Inter";
+}
+
+.wrapper {
+  height: 250px;
+  width: 80%;
+  margin-left: 13%;
+  margin-top: 5%;
+}
+
+.sections {
+  display: flex;
+}
+
+.wrapper-top-portion h2 {
+  margin: 0px;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  color: var(--dark, #211e1e);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+.section {
+  flex: 1;
+}
+
+.section h4 {
+  margin: 0px;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  color: var(--dark, #211e1e);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+}
+.section p {
+  margin: 0px;
+  line-height: 1.75;
+  letter-spacing: 0.00938em;
+
+  color: var(--dark, #211e1e);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 5%;
+}
+
+.form {
+  width: 50%;
+}
+
+.btn {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.row {
+  display: flex;
+  width: 100%;
+}
+
+input,
+textarea {
+  width: 250px;
+  padding: 12px 20px;
+  margin: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+.wrapper-bottom-portion {
+  margin-top: 3%;
+}
+.wrapper-bottom-portion h2 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  margin-bottom: 1%;
+}
+
+.wrapper-bottom-portion p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  margin-bottom: 1%;
+}
+
+.button {
+  background-color: #17c1a3;
+  border: none;
+  color: #ffffff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.view {
+  margin-top: 0;
+  width: fit-content;
+  height: 45px;
+  margin-left: 380px;
+  cursor: pointer;
+  font-family: "Inter";
+}
