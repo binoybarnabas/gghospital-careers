@@ -1,0 +1,52 @@
+.footer{
+    margin-top:30px;
+    margin-left:170px;
+    margin-right:170px;
+    display:flex;
+    justify-content:space-between;
+}
+.logo-new{
+    background-image: url('./assets/logo.png');
+    margin-left:10px;
+    background-size: contain;
+    height:50px;
+    width:200px;
+    background-repeat:no-repeat;
+}
+
+.logo-section .logo p{
+    font-size: 10px;
+}
+.about-flex{
+    display:flex;
+    justify-content: space-between;
+}
+
+.footer-p{
+    font-size:10px;
+    align-items: left;
+}
+
+.footer-head-p{
+    font-size:12px;
+}
+
+.line-break{
+    margin-left:170px;
+    margin-right:170px;
+}
+
+.footer-close{
+    margin-left:170px;
+    margin-right:170px;
+}
+.footer-close-1{
+    display:flex;
+    justify-content:space-between;
+}
+
+.individual-flex{
+    display:flex;
+    
+}
+

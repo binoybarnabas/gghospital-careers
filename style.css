@@ -1,0 +1,489 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300&family=Roboto&display=swap');
+
+*{
+margin:0px;
+padding:0px;
+box-sizing:border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+.header-main{
+    height:52px;
+    width:100%;
+}
+.header-style{
+   
+    display:flex;
+    margin-left:126px;
+    height:31px;
+    font-size:10px;  
+    width:80%;
+    align-items: center;
+    justify-content: space-between;
+}
+.follow-us{
+padding-bottom:5px;
+padding-right:5px;
+}
+.follow-header{
+    flex:1;
+    display:flex;
+    padding-left:25px;
+    z-index:999;
+}
+.contact-header{
+    flex:1;
+
+    width:min-content;
+}
+.nav-bar ul{
+    list-style-type:none;
+    display:flex;
+}
+.nav-bar li{
+    font-size:13px;
+    font-weight: 10px;
+}
+.nav-bar{
+    margin-right:50px;
+}
+.nav-item{
+    float:left;
+    margin-left:15px;
+    list-style-type: none;
+    padding-top: 15px;
+    font-size:14px;
+}
+
+.logo{
+    background-image: url('./assets/logo.png');
+    margin-left:155px;
+    background-size: contain;
+    height:50px;
+    width:200px;
+    background-repeat:no-repeat;
+}
+.nav-bar-main{
+    display:flex;
+    justify-content:space-between;
+    margin-right:123px;
+}
+
+.nav-bar a{
+    color:black;
+}
+
+
+.hero-background{
+    position:relative;
+    background-image: url('./assets/herophoto.png');
+    height:450px;
+    width:80%;
+    margin-left:123px;
+    margin-right:123px;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: contain;
+}
+
+.quote{
+    position:absolute;
+    font-size:50px;
+    font-weight: 700;
+    line-height: 40px;
+    top:130px;
+    left:80px;
+}
+
+.content{
+    position:absolute;
+    top:100px;
+    left:5px;
+    font-weight: 300;
+    line-height: 20px;
+    font-size:16px;
+}
+
+.appointment{
+    display:flex;
+   
+}
+
+.book-appointment{
+    position:absolute;
+    top:300px;
+    left:85px;
+    height:40px;
+    width:150px;
+    background-color:#17C1A3;
+    flex:1;
+    border-radius:5px;
+    border-width:0px;
+    color:white;
+}
+.doctor-appointment{
+flex:1;
+position:absolute;
+display:flex;
+left:270px;
+top:310px;
+width:fit-content;
+}
+
+.doctor-appointment a{
+color:black;
+font-size:13px;
+}
+
+
+.form-input{
+position:absolute;
+background-color:white;
+border-radius:5px;
+padding:20px;
+left:330px;
+top: 500px;
+width:fit-content;
+}
+
+.form-input-row1{
+    display:flex;
+}
+
+.form-input-row2{
+    display:flex;
+}
+.book-an-appointment{
+    background-color: #17C1A3;
+    border-width:0px;
+    border-radius:5px;
+    color:white;
+    height:30px;
+    width:170px;
+    margin:5px;
+}
+
+
+.form-text-input{
+    padding-left:10px;
+    background-color: white;
+    border-width:0px;
+    border-radius:5px;
+    border-style:solid;
+    border-width:1px;
+    color:grey;
+    height:30px;
+    width:170px;
+    margin:5px;
+}
+
+.book-text{
+    margin-left:5px;
+}
+
+.departments{
+    margin-left:160px; 
+    margin-top:120px;
+    margin-bottom:30px;
+}
+
+.departments-photos{
+display:flex;
+height:260px;   
+margin-right:170px;
+justify-content:space-between;
+}
+
+.photo1{
+    background-image: url('./assets/department_img_1.png');
+    flex:1;
+    width:250px;
+    height:200px;
+    border-radius:5px;
+    margin-left:7px;
+    margin-right:7px;
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+
+.photo2{
+    background-image: url('./assets/Department_img_2.png');
+    flex:1;
+    width:250px;
+    height:200px;
+    border-radius:5px;
+    margin-left:7px;
+    margin-right:7px;
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+
+.photo3{
+    background-image: url('./assets/Department_img_3.png');
+    flex:1;
+    width:250px;
+    height:250px;
+    border-radius:5px;
+    margin-left:7px;
+    margin-right:7px;
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+
+.department-content{
+    margin-top:220px;
+}
+
+.department-content p{
+    font-size:11px;
+}
+
+.department-content a{
+color: #17C1A3;
+font-size: 12px;
+}
+
+.why-gg{
+    display:flex;
+    margin-left:170px;
+    margin-top:100px;
+    width:73%;
+    height:400px;
+    background-color:#dae9f6;
+    margin-right:170px;
+    border-radius:4px;
+}
+
+.doctor-image{
+    flex:1;
+    background-image: url('./assets/Doctorsgroup.png');
+    width:250px;
+    height:250px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin-top:100px; 
+    margin-left:50px;
+}
+.doctor-data{
+    flex:1;
+    width:250px;
+    height:250px;
+    margin-top:120px;   
+    line-height: 30px;
+}
+
+.doctor-data ul{
+    list-style-image:url('./assets/greenticknew\ \(1\).png');
+
+}
+
+.speciality-header{
+    margin-top:70px;
+    text-align: center;
+}
+
+.speciality-header p{
+    margin-top:7x;
+    font-size:12px;
+}
+
+
+.specialist-photos{
+    margin-top:30px;
+    margin-left:170px;
+    margin-right:190px;
+}
+
+.image-data{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.img-height{
+    height:300px;
+    width:200px;
+
+}
+
+.img-height{
+    text-align:center;
+}
+
+.view-center{
+    display:flex;
+}
+.view-center-button{
+    flex:1;
+    height: 35px;
+    width:120px;
+    margin-top:45px;
+    margin-left: 26%;;
+    margin-right:170px;
+    
+}
+
+.view-all{
+    background-color:#17C1A3;
+    border-radius:5px;
+    border-width:0px;
+    color:white;
+    text-align: center;
+    height: 35px;
+    width:120px;
+    margin-top:45px;
+    margin-left:170px;
+    margin-right:170px;
+}
+
+.img-height p{
+    font-size: 11px;
+}
+
+.facility-header{
+    margin-right:170px;
+    text-align:center;
+}
+
+
+.facility1{
+    background-image: url('./assets/facility1.png');
+    flex:1;
+    width:250px;
+    height:200px;
+    border-radius:5px;
+    margin-left:7px;
+    margin-right:7px;
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+
+.facility2{
+    background-image: url('./assets/facility2.png');
+    flex:1;
+    width:250px;
+    height:200px;
+    border-radius:5px;
+    margin-left:7px;
+    margin-right:7px;
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+
+.facility3{
+    background-image: url('./assets/facility3.png');
+    flex:1;
+    width:250px;
+    height:250px;
+    border-radius:5px;
+    margin-left:7px;
+    margin-right:7px;
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+
+
+.int-center {
+    text-align:center;
+    margin-right:170px;
+}
+
+
+.interest1{
+    background-image: url('./assets/interest1.png');
+    flex:1;
+    width:250px;
+    height:200px;
+    border-radius:5px;
+    margin-left:7px;
+    margin-right:7px;
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+
+.interest2{
+    background-image: url('./assets/interest2.png');
+    flex:1;
+    width:250px;
+    height:200px;
+    border-radius:5px;
+    margin-left:7px;
+    margin-right:7px;
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+
+.interest3{
+    background-image: url('./assets/interest3.png');
+    flex:1;
+    width:250px;
+    height:250px;
+    border-radius:5px;
+    margin-left:7px;
+    margin-right:7px;
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+
+
+.interested-in-above{
+position:absolute;
+z-index:99;
+top:390%; 
+left:6%;
+}
+
+.interested{
+    background-color:#EAF2FF;
+    height:500px;
+    margin-top:-200px;
+}
+
+.news-letter{
+    position:absolute;
+    display:flex;
+    margin-left:14%;
+    margin-top:20%;
+    background-color: #ffffff;
+    height:150px;
+    width:900px;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('./assets/subscribebackground.png');
+}
+
+.left-news-letter{
+    flex:1;
+    margin-left:50px;
+   
+}
+
+.right-news-input{
+    flex:1;
+    
+}
+
+.view-subscribe{
+    background-color:#17C1A3;
+    border-radius:5px;
+    border-width:0px;
+    color:white;
+    text-align: center;
+    height: 40px;
+    width:120px;
+}
+.input-subscribe{
+    border:none;
+    height: 35px;
+    width:200px;
+}
+
+.subscribe-input{
+    display:flex;
+    margin-right:30px;
+    border-bottom:1px solid grey;
+    padding-bottom: 5px;
+}

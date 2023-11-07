@@ -1,0 +1,60 @@
+.career-header{
+    display: flex;
+    padding:40px;
+}
+.career-title{
+    font-size: 60px;
+    padding:30px;
+    margin-left:126px;
+    flex:2;
+}
+.career-desc{
+    flex:3;
+    margin-right:126px;
+    font-size: 20px;
+}
+ 
+.career-cards{
+    display: flex;
+    padding:40px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin:100px;
+    border-radius: 10px;
+}
+.career-content{
+    font-size: 17px;
+    padding:30px;
+    margin-left:26px;
+    flex:2;
+    width:60%;
+}
+ 
+.career-button{
+    flex:1;
+    justify-content: center;
+    /* font-size: 30px;
+    padding-top:70px;
+    background-color: rgb(55, 104, 84);
+    color: white;
+    width:30px;
+    height:20px; */
+}
+button{
+    box-sizing: border-box;
+    /* padding-left: 20px; */
+    height:50px;
+    width:150px;
+    margin-left: 100px;
+    margin-top: 60px;
+    background-color: #17C1A3;
+    border-radius: 7px;
+    border: 0px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+ 
+h1{
+    padding-bottom: 30px;
+    font-size: 30px;
+}
