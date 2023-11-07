@@ -1,4 +1,3 @@
-    const careers = document.getElementsByClassName('career-card');
 
     const url = 'https://dummyjson.com/users';
 
@@ -44,7 +43,16 @@
     careerButton.appendChild(button);
     careerCards.appendChild(careerContent);
     careerCards.appendChild(careerButton);
+
+    careerCards.addEventListener('click',()=>{
+    openNewPage(userData);
+    console.log("hello event");
+    })
     return careerCards;
 
+    }
+
+    const openNewPage = (userData)=>{
+        window.location.href = `form.html?id=${userData.id}`
     }
     
