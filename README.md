@@ -1,2 +1,2 @@
 # gghospital-careers
-Careers section
+Careers page
