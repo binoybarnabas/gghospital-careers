@@ -18,7 +18,14 @@ const newData = data.users.filter((userData)=>{
 document.getElementById('position').innerHTML = newData[0].company.department;
 document.getElementById('designation').innerHTML = newData[0].company.title;
 document.getElementById('qualification').innerHTML = newData[0].university;
+
 filteredData = newData;
+document.getElementById('fname').value = filteredData[0].firstName;
+document.getElementById('pnumber').value = filteredData[0].phone;
+document.getElementById('email').value = filteredData[0].email;
+document.getElementById('coverletter').value = filteredData[0].address.address;
+document.getElementById('date').value = filteredData[0].birthDate;
+document.getElementById('subject').value = filteredData[0].maidenName;
 console.log(filteredData);
 }
 catch(e){   
@@ -32,14 +39,9 @@ dataProcess(url,id);
 let urlPost = 'https://dummyjson.com/users/add';
 //posting
 const postData = async () =>{
-
-    let fullName = document.getElementById('fname').value;
-    let phoneNumber = document.getElementById('pnumber').value;
-    let mail = document.getElementById('email').value;
-    let coverletter = document.getElementById('coverletter').value;
-    let date = document.getElementById('date').value;
-    let subject = document.getElementById('subject').value;
-    let data = {fullName, phoneNumber,mail ,coverletter,date,subject};
+    console.log(filteredData);
+    
+    let data = filteredData;
     let response = await fetch(urlPost,{
         method:'post',
         headers:{
@@ -47,6 +49,7 @@ const postData = async () =>{
         },
         body:JSON.stringify(data)
     })
+    console.log(response);
 
     let dataNew =await response.json();
     console.log(data);
